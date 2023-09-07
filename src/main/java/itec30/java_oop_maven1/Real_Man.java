@@ -12,4 +12,6 @@ public class Real_Man {
     String mc;
     String status;
     int chapters;
+    String work;
+   
 }
