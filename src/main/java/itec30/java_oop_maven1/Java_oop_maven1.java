@@ -17,8 +17,17 @@ public class Java_oop_maven1 {
         /* class acessing attributes*/
         rm.mc = "Han_Yoo_Hyun";
         rm.status = "ongoing";
+        rm.work = "CEO";
         rm.chapters = 155;
         
         System.out.print(rm.mc+"\n");
+        System.out.println(rm.status);
+        System.out.println(rm.work); 
+        System.out.println(rm.chapters);
+        // Constrator
+        Em sheesh1 = new Em("Milk Tea", "Black");
+        Em sheesh2 = new Em("Adobo", "Black");
+        Em sheesh3 = new Em("Sinigang", "Black");
+       
     }
 }
